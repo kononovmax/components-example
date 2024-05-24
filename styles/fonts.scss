@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'SF Pro Display';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./SFRegular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'SF Pro Display';
+	font-style: normal;
+	font-weight: 500;
+	src: url('./SFMedium.woff2') format('woff2');
+}
+
+.m16,
+.m14,
+.r16,
+.r14 {
+	font-family: 'SF Pro Display', sans-serif;
+	color: var(--primary);
+}
+
+.m16 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+.m14 {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+}
+.r16 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.r14 {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+.accent {
+	color: var(--accent);
+}
+.secondary {
+	color: var(--secondary);
+}
+.disabled {
+	color: var(--disabled);
+}
+
+.fit {
+	max-width: 100%;
+	width: max-content;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

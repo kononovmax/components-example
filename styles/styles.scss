@@ -1,0 +1,58 @@
+.Accent {
+	background-color: var(--accent);
+	border: 1px solid var(--border);
+}
+
+.Danger {
+	background-color: var(--danger);
+	border: 1px solid var(--border);
+}
+
+.Primary {
+	background-color: var(--background);
+}
+
+.Disabled {
+	background-color: var(--background);
+	color: var(--disabled);
+}
+
+.Secondary:hover {
+	background-color: var(--background);
+}
+
+.View {
+	background-color: var(--view);
+	border: 1px solid var(--border);
+}
+
+.Control {
+	background-color: var(--one);
+	border: 1px solid var(--border);
+}
+
+.activeLeft {
+	position: relative;
+	::after {
+		content: '';
+		position: absolute;
+		width: 2px;
+		height: 16px;
+		border-radius: 4px;
+		left: -1px;
+		top: calc(50% - 8px);
+	}
+}
+
+.activeBottom {
+	position: relative;
+	::after {
+		content: '';
+		position: absolute;
+		width: 16px;
+		height: 2px;
+		border-radius: 4px;
+		bottom: -1px;
+		left: calc(50% - 8px);
+	}
+}

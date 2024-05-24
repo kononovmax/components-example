@@ -1,0 +1,17 @@
+:root {
+	--accent: hsl(215 100% 50%);
+	--primary: hsl(0 0% 100%);
+	--secondary: hsl(0 0% 100% / 64%);
+	--disabled: hsl(0 0% 100% / 32%);
+	--border: hsl(0 0% 100% / 12%);
+	--background: hsl(0 0% 100% / 8%);
+	--view: hsl(215 20% 10%);
+	--control: hsl(215 20% 4%);
+	--header: hsl(215 20% 14%);
+	--overlay-color: hsl(215 20% 6% / 90%);
+	--overlay-effect: blur(8px);
+	--error: hsl(3 100% 61%);
+	--error-hover: hsl(3 100% 51%);
+	--success: hsl(135 64% 50%);
+	--warning: hsl(36 100% 52%);
+}

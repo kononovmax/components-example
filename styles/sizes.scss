@@ -1,0 +1,84 @@
+.block {
+	display: flex;
+}
+
+.Segment {
+	border-radius: 8px;
+	padding: 6px;
+	gap: 6px;
+}
+
+.Cell {
+	align-items: center;
+	border-radius: 8px;
+	padding: 6px;
+	gap: 8px;
+}
+
+.Field {
+	border-radius: 8px;
+	padding: 12px;
+}
+
+.Small {
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 4px;
+}
+
+.AcceptBtn {
+	align-items: center;
+	width: 44px;
+	padding: 0 12px;
+	border-radius: 8px;
+}
+
+.RegisterBtn {
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 8px;
+}
+
+.Content {
+	flex-direction: column;
+	gap: 8px;
+}
+
+.Block {
+	flex-direction: column;
+	padding: 24px;
+	gap: 16px;
+}
+
+.Cells {
+	flex-direction: column;
+	padding: 8px;
+	gap: 4px;
+}
+
+.List {
+	flex-direction: column;
+	> div {
+		border-bottom: 1px solid var(--border);
+		:last-child {
+			border-bottom: none;
+		}
+	}
+}
+
+.Buttons {
+	padding: 8px;
+	gap: 8px;
+	> div {
+		width: 100%;
+	}
+}
+
+.Header {
+	padding: 6px;
+	gap: 6px;
+}

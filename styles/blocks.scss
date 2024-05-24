@@ -1,0 +1,63 @@
+.Overlay {
+	background-color: var(--overlay-color);
+	backdrop-filter: var(--overlay-blure);
+	align-items: center;
+	justify-content: center;
+}
+
+.Accept {
+	width: 312px;
+	border-radius: 12px;
+	flex-direction: column;
+}
+
+.Form {
+	width: 400px;
+	border-radius: 12px;
+	flex-direction: column;
+}
+
+.Body {
+	border-radius: 12px;
+}
+
+.Window {
+	flex-direction: column;
+	border-radius: 12px;
+	width: 800px;
+}
+
+.WindowBody {
+	border-radius: 12px;
+	:first-child {
+		width: 200px;
+		border-right: 1px solid var(--border);
+	}
+}
+
+.Toast {
+	position: fixed;
+	padding: 6px;
+	padding-right: 12px;
+	gap: 8px;
+}
+
+.Nav {
+	position: fixed;
+	top: 8px;
+	right: 8px;
+	width: 280px;
+}
+
+.ProjectBtn {
+	height: 32px;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+}
+
+.BarHeader {
+	padding: 12px;
+	gap: 4px;
+}
